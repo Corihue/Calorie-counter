@@ -4,3 +4,4 @@ Sometimes when you're coding a web application, you'll need to be able to accept
 
 In this practice project, you'll learn basic regular expressions, template literals, the addEventListener() method, and more.
 
+![IMG_0135](https://github.com/user-attachments/assets/95543fb6-e73f-43d0-ba9a-b6fae801322b)
