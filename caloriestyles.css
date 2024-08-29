@@ -1,0 +1,84 @@
+:root {
+    --background: #004643;
+    --paragraph: #abd1c6;
+    --button: #f9bc60;
+    --btn-text: #001e1d;
+  
+  }
+  
+  body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background-color: var(--background);
+    color: var(--paragraph);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 680px;
+  }
+  
+  h1,
+  .container,
+  .output {
+    margin: 20px auto;
+  }
+  
+  label,
+  legend {
+    font-weight: bold;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--button);
+    border: 2px solid var(--button);
+  }
+  
+  button,
+  input,
+  select {
+    min-height: 24px;
+    color: var(--background);
+  }
+  
+  fieldset,
+  label,
+  button,
+  input,
+  select {
+    margin-bottom: 10px;
+  }
+  
+  .output {
+    border: 2px solid var(--btn-text);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .output span {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .surplus {
+    color: var(--paragraph);
+  }
+  
+  .deficit {
+    color: var(--paragraph);
+  }
